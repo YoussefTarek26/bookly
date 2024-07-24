@@ -38,14 +38,22 @@ class _CAppBarState extends State<CAppBar>
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(top: 50,left: 30,right: 30,bottom:40 ),
+      padding: const EdgeInsets.only(top: 20,left: 30,right: 30,bottom:25 ),
       child: Row(
         children: [
           SlideTransition(
               position: slidingAnimation,
               child: Image.asset(AssetsData.logo,height: 17,width: 75,)),
           const Spacer(),
-          const Icon(FontAwesome.magnifying_glass_solid ,weight: 25,size: 25,)
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(
+              FontAwesome.magnifying_glass_solid,
+              size: 24,
+              weight: 24,
+            ),
+          )
+          // const Icon(FontAwesome.magnifying_glass_solid ,weight: 25,size: 25,)
         ],
       ),
     );

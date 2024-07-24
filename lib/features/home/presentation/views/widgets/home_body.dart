@@ -11,7 +11,8 @@ class HomeBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return const CustomScrollView(
       slivers: [
-        SliverToBoxAdapter(child:  Column(
+        SliverToBoxAdapter(
+          child:Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             CAppBar(),

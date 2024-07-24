@@ -1,9 +1,9 @@
-import 'package:bookly_app/core/utils/assets.dart';
 import 'package:flutter/material.dart';
 
 class CustomBooKImage extends StatelessWidget {
+  final String image;
   const CustomBooKImage({
-    super.key,
+    super.key, required this.image,
   });
 
   @override
@@ -12,7 +12,6 @@ class CustomBooKImage extends StatelessWidget {
       padding: const EdgeInsets.only(right: 8),
       child: Container(
         decoration: BoxDecoration(
-          color: Colors.red,
           borderRadius: BorderRadius.circular(16),
         ),
         child: AspectRatio(
@@ -20,7 +19,7 @@ class CustomBooKImage extends StatelessWidget {
             child: ClipRRect(
                 borderRadius: BorderRadius.circular(16),
                 child:
-                Image.asset(AssetsData.testImage,fit: BoxFit.fill,))),
+                Image.network(image,fit: BoxFit.fill,))),
       ),
     );
   }

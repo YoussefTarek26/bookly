@@ -32,4 +32,9 @@ abstract class Styles{
     fontWeight: FontWeight.w500,
     fontSize: 16,
   );
+
+  static const starStyle30 = TextStyle(
+    fontWeight: FontWeight.w400,
+    fontSize: 30,
+  );
 }

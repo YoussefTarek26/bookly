@@ -7,7 +7,7 @@ class BestSellerList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SliverList(delegate: SliverChildBuilderDelegate((context,index){
-      return const BestSellerItem();
+      return  BestSellerItem(index: index,);
     },childCount: 10,));
   }
 }
