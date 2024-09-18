@@ -1,10 +1,4 @@
-import 'package:bookly_app/core/utils/stayles.dart';
-import 'package:bookly_app/features/book_details/presentation/views/widgets/price_preview.dart';
-import 'package:bookly_app/features/home/presentation/manager/all_books/newst_books_cubit.dart';
-import 'package:bookly_app/features/home/presentation/manager/all_books/newst_books_state.dart';
-import 'package:bookly_app/features/home/presentation/views/widgets/custom_book_image.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:bookly_app/core/barrel/imports.dart';
 
 class CustomerBookDetailsAll extends StatelessWidget {
   final int index;
@@ -63,32 +57,3 @@ class CustomerBookDetailsAll extends StatelessWidget {
     });
   }
 }
-//       Column(
-//       children: [
-//         Padding(
-//           padding: EdgeInsets.symmetric(
-//             horizontal: width * .23,
-//           ),
-//           child: const Testt(),
-//         ),
-//         const SizedBox(height: 22,),
-//         const Text(
-//             "The Jungle Book",
-//           style: Styles.starStyle30,),
-//         const Text(
-//             "Rudyard Kipling",
-//           style: Styles.textStyle18,),
-//         const Row(
-//           mainAxisAlignment: MainAxisAlignment.center,
-//           children: [
-//             Icon(Icons.star,color: Colors.yellow,),
-//             Text(" 4.8 ",style: Styles.starStyle16,),
-//             Text(" (2390)",style: Styles.starStyle14,),
-//           ],
-//         ),
-//         const SizedBox(height: 22,),
-//         const PricePreview(),
-//       ],
-//     );
-//   }
-// }

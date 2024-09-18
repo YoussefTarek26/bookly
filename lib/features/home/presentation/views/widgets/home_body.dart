@@ -1,8 +1,4 @@
-import 'package:bookly_app/core/utils/stayles.dart';
-import 'package:bookly_app/features/home/presentation/views/widgets/app_bar.dart';
-import 'package:bookly_app/features/home/presentation/views/widgets/best_seller_list.dart';
-import 'package:bookly_app/features/home/presentation/views/widgets/featured_list_view.dart';
-import 'package:flutter/material.dart';
+import 'package:bookly_app/core/barrel/imports.dart';
 
 class HomeBody extends StatelessWidget {
   const HomeBody({super.key});

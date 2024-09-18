@@ -1,9 +1,4 @@
-import 'package:bookly_app/features/book_details/presentation/views/book_details_view.dart';
-import 'package:bookly_app/features/home/presentation/manager/all_books/newst_books_cubit.dart';
-import 'package:bookly_app/features/home/presentation/manager/all_books/newst_books_state.dart';
-import 'package:bookly_app/features/home/presentation/views/widgets/custom_book_image.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:bookly_app/core/barrel/imports.dart';
 
 class FeaturedListView extends StatelessWidget {
   const FeaturedListView ({super.key});
@@ -22,10 +17,9 @@ class FeaturedListView extends StatelessWidget {
               itemBuilder: (context, index){
                 return  InkWell(
                   onTap: (){
-                    // GoRouter.of(context).push(AppRouter.kBookDetailsView);
-                    Navigator.push(context, MaterialPageRoute(
-                        builder: (context)=>  BookDetailsView(index: index, access: true,)));
-                  },
+                    final extraData = {'index': index, 'access': true};
+                    GoRouter.of(context).push(AppRouter.kBookDetailsView,extra: extraData);
+                     },
                     child: CustomBooKImage(image: "${state.books[index].volumeInfo!.imageLinks!.thumbnail}"));
 
               }),

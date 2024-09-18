@@ -1,7 +1,4 @@
-import 'package:bookly_app/core/utils/assets.dart';
-import 'package:bookly_app/core/utils/feature/sliding_animation.dart';
-import 'package:flutter/material.dart';
-import 'package:icons_plus/icons_plus.dart';
+import 'package:bookly_app/core/barrel/imports.dart';
 
 class CAppBar extends StatefulWidget {
   const CAppBar({super.key});

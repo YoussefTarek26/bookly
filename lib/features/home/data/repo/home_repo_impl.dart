@@ -1,7 +1,6 @@
+import 'package:bookly_app/core/barrel/imports.dart';
 import 'package:bookly_app/core/errors/failures.dart';
 import 'package:bookly_app/core/network/api_service.dart';
-import 'package:bookly_app/features/home/data/models/books/books.dart';
-import 'package:bookly_app/features/home/data/repo/home_repo.dart';
 import 'package:dartz/dartz.dart';
 
 class HomeRepoImpl implements HomeRepo{

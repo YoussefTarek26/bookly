@@ -1,5 +1,5 @@
-import 'package:bookly_app/features/splash/presentation/views/widgets/splash_body.dart';
-import 'package:flutter/material.dart';
+import 'package:bookly_app/core/barrel/imports.dart';
+
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});

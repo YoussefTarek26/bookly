@@ -1,6 +1,4 @@
-import 'package:bookly_app/core/utils/assets.dart';
-import 'package:bookly_app/core/utils/feature/sliding_animation.dart';
-import 'package:flutter/material.dart';
+import 'package:bookly_app/core/barrel/imports.dart';
 
 class AnimationImage extends StatefulWidget {
   const AnimationImage({super.key});

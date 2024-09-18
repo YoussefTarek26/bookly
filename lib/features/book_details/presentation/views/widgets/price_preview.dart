@@ -1,12 +1,11 @@
-import 'package:bookly_app/core/utils/stayles.dart';
-import 'package:flutter/material.dart';
+import 'package:bookly_app/core/barrel/imports.dart';
 
 class PricePreview extends StatelessWidget {
   const PricePreview({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return  Row(
+    return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         SizedBox(

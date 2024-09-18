@@ -1,6 +1,4 @@
-import 'package:bookly_app/features/home/data/repo/home_repo.dart';
-import 'package:bookly_app/features/home/presentation/manager/all_books/newst_books_state.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:bookly_app/core/barrel/imports.dart';
 
 class NewstBooksCubit extends Cubit<NewstBooksState> {
   final HomeRepo homeRepo;

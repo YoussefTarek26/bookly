@@ -1,4 +1,4 @@
-import 'package:bookly_app/features/home/data/models/books/books.dart';
+import 'package:bookly_app/core/barrel/imports.dart';
 
 abstract class BestSellerState {}
 

@@ -1,7 +1,4 @@
-import 'package:bookly_app/features/book_details/presentation/views/widgets/customer_app_bar.dart';
-import 'package:bookly_app/features/book_details/presentation/views/widgets/customer_book_details_all.dart';
-import 'package:bookly_app/features/book_details/presentation/views/widgets/similar_books.dart';
-import 'package:flutter/material.dart';
+import 'package:bookly_app/core/barrel/imports.dart';
 
 class BookDetailsBody extends StatelessWidget {
   final int index;

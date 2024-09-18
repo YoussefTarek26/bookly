@@ -1,5 +1,4 @@
-import 'package:bookly_app/features/book_details/presentation/views/widgets/book_details_body.dart';
-import 'package:flutter/material.dart';
+import 'package:bookly_app/core/barrel/imports.dart';
 
 class BookDetailsView extends StatelessWidget {
   final int index;
@@ -9,7 +8,12 @@ class BookDetailsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      body: SafeArea(child: BookDetailsBody(index: index, access: access,)),
+      body: SafeArea(
+          child: BookDetailsBody(
+            index: index,
+            access: access,
+          )
+      ),
     );
   }
 }

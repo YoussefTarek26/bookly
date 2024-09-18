@@ -1,10 +1,4 @@
-import 'package:bookly_app/core/utils/stayles.dart';
-import 'package:bookly_app/features/book_details/presentation/views/widgets/price_preview.dart';
-import 'package:bookly_app/features/home/presentation/manager/best_books/best_seller_cubit.dart';
-import 'package:bookly_app/features/home/presentation/manager/best_books/best_seller_state.dart';
-import 'package:bookly_app/features/home/presentation/views/widgets/custom_book_image.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:bookly_app/core/barrel/imports.dart';
 
 class CustomerBookDetailsBest extends StatelessWidget {
   final int index;

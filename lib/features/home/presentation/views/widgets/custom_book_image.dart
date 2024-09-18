@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:bookly_app/core/barrel/imports.dart';
 
 class CustomBooKImage extends StatelessWidget {
   final String image;
